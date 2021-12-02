@@ -8,6 +8,6 @@ var_dump($sequencia);
 for ($i=0; $i < count($sequencia) ; $i++) { 
     $indice = $sequencia[$i];
     array_splice($sequencia,$i,1);
-    echo $sequencia[$i-1];
-    echo $indice;
+    echo $sequencia[$i];
+    echo 
 }
