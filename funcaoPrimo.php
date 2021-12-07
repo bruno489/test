@@ -1,6 +1,7 @@
 <?php
 
-    $numero=14;
+function PrimoInferior($num){
+    $numero=$num;
     $numInsert=$numero;
     for ($i=0; $i <= $numero; $i++) { 
         if (($numero%2==0) || ($numero%3==0)) {
@@ -10,3 +11,5 @@
             break;
         }
     }
+}
+    
